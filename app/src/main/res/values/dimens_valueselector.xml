@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="valueselector_button_wh">32dp</dimen>
+    <dimen name="valueselector_margin_left_right">10dp</dimen>
+    <dimen name="valueselector_margin_top_bottom">10dp</dimen>
+    <dimen name="valueselector_bg_corners_radius">4dp</dimen>
+
+</resources>

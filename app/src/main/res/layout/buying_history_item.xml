@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp">
+
+            <TextView
+                android:id="@+id/history_food_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="دوبل برگر مخصوص با پنیر"
+                android:textColor="@color/darker_orange"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/layout"
+            android:text="2020/05/05"
+            android:textColor="@color/text_color_light"
+            android:textSize="16sp"
+            android:layout_marginLeft="8dp"
+            android:textStyle="italic" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:id="@+id/history_food_count_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="5dp"
+                android:text="تعداد:"
+                android:textColor="@color/text_color"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/history_food_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_toLeftOf="@id/history_food_count_tv"
+                android:text="3"
+                android:textColor="@color/text_color"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/history_food_price_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/history_food_price_zero"
+                android:text="قیمت:"
+                android:textColor="@color/text_color"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:id="@+id/history_food_price_zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_toRightOf="@id/history_food_price"
+                android:text="000"
+                android:textColor="@color/text_color"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/history_food_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="35"
+                android:textColor="@color/text_color"
+                android:textSize="18dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_header"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:background="@drawable/navigation_header_image"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/nav_header_imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/avatar" />
+
+    <TextView
+        android:id="@+id/nav_header_textView_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        tools:text="Aref Yazdkhasti"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_gravity=""
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+</LinearLayout>

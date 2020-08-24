@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:id="@+id/btn_minus"
+        android:layout_width="@dimen/valueselector_button_wh"
+        android:layout_height="@dimen/valueselector_button_wh"
+        app:srcCompat="@drawable/minus_red"
+        android:layout_gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/value_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="24dp"
+        android:maxWidth="30dp"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_vertical"
+        />
+
+    <ImageView
+        android:layout_marginRight="@dimen/valueselector_margin_left_right"
+        android:layout_marginLeft="@dimen/valueselector_margin_left_right"
+        android:layout_marginTop="@dimen/valueselector_margin_top_bottom"
+        android:layout_marginBottom="@dimen/valueselector_margin_top_bottom"
+        android:id="@+id/btn_plus"
+        android:layout_width="@dimen/valueselector_button_wh"
+        android:layout_height="@dimen/valueselector_button_wh"
+        app:srcCompat="@drawable/plus_red"
+        android:layout_gravity="center_vertical"/>
+    
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "537128471371",
+    "firebase_url": "https://fesco-4a965.firebaseio.com",
+    "project_id": "fesco-4a965",
+    "storage_bucket": "fesco-4a965.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537128471371:android:e61fd63558d649107476ce",
+        "android_client_info": {
+          "package_name": "com.example.fesco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537128471371-i4j8g4m0svfaq84gbj5sm2a7j3l7jk9a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fesco",
+            "certificate_hash": "efaac76262fcbc606bcb194d41d3b30d8b2fa536"
+          }
+        },
+        {
+          "client_id": "537128471371-fa1df6hjsq5e56uho8aj52qv9baeug2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy6JZR1Y51tTbI7zLx3jY1nnzQvka5dvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537128471371-fa1df6hjsq5e56uho8aj52qv9baeug2r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

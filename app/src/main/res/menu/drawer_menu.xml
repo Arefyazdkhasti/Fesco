@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/navigation_menu_home"
+            android:icon="@drawable/home"
+            android:title="خانه" />
+        <item
+            android:id="@+id/navigation_menu_profile"
+            android:icon="@drawable/profile"
+            android:title="پروفایل کاربر" />
+
+        <item
+            android:id="@+id/navigation_menu_card"
+            android:icon="@drawable/shopping_cart_icon"
+            android:title="سبد خرید" />
+
+        <item
+            android:id="@+id/navigation_menu_history"
+            android:icon="@drawable/history"
+            android:title="تاریخچه خرید" />
+
+        <item
+            android:id="@+id/contact_us"
+            android:icon="@drawable/contact_us"
+            android:title="ارتباط با ما" />
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/about_us"
+            android:title="در مورد ما" />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="خروج" />
+
+    </group>
+</menu>
