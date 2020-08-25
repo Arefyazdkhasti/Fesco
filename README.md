@@ -3,28 +3,28 @@ fecso is an online food shopping app for andoid
 
 login and regiser 
 
-![](login.png = 250x250)
-![](register.png)
+![Screenshots](login.png)
+![Screenshots](register.png)
 
 main Page
 
-![](main.png)
+![Screenshots](main.png)
 
 diffrent categoty
 
-![](category.png)
+![Screenshots](category.png)
 
 all food with search ability
 
-![](addFood.png)
+![Screenshots](addFood.png)
   
 food details
 
-![](foodDetail.png)
+![Screenshots](foodDetail.png)
 
 shopping card and history
 
-![](ShoppingCard.png)
-![](history.png)
+![Screenshots](ShoppingCard.png)
+![Screenshots](history.png)
 
 ability to add comments for foods and drinks
