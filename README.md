@@ -16,7 +16,7 @@ diffrent categoty
 
 all food with search ability
 
-![Screenshots](addFood.png)
+![Screenshots](allFood.png)
   
 food details
 
